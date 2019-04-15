@@ -10,11 +10,11 @@ class TelaInicial extends Component {
     tabBarIcon:({tintColor, focused}) => {
       if(focused) {
         return (
-         <Image source={require('../source/assets/home_on.png')} style={{width:26, height:26}} />
+         <Image source={require('./assets/home_on.png')} style={{width:26, height:26}} />
         );
     } else {
       return(
-        <Image source={require('../source/assets/home_off.png')} style={{width:26, height:26}} />
+        <Image source={require('./assets/home_off.png')} style={{width:26, height:26}} />
         );
       }
     }
@@ -28,7 +28,6 @@ class TelaInicial extends Component {
   }
 
   conversar() {
-
     this.props.navigation.navigate('Conversa', {
         nome:this.state.nome
       });

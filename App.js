@@ -162,3 +162,5 @@ export default Navegador;
 
 // { tabBarOptions: { showIcon:true } }
 // );
+
+// export default Navegador;

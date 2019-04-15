@@ -8,11 +8,11 @@ class ConversationScreen extends Component {
     tabBarIcon:({tintColor, foused}) => {
       if(foused) {
         return (
-          <image source={require('../source/assets/chat_on.png')} style={{width:26, height:26}} />
+          <image source={require('./assets/chat_on.png')} style={{width:26, height:26}} />
           );
       } else {
         return (
-          <Image source={require('../source/assets/chat_on.png')} style={{width:26, height:26}} />
+          <Image source={require('./assets/chat_on.png')} style={{width:26, height:26}} />
         );
       }
     }
